@@ -35,7 +35,6 @@ public class TestClassUtils {
         List<Messaging.SingleEmailMessage> mails = new List<Messaging.SingleEmailMessage>();
         Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
         mail.setToAddresses(sendTo);
-        mail.setReplyTo('sharma.ravidutt23@gmail.com');
         mail.setSenderDisplayName('Salesforce Admin');
         mail.setSubject('Test Class Status');
         String mailBody = body; 
