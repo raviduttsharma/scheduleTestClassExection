@@ -58,7 +58,7 @@ public class TestClassUtils {
              WHERE Id=:jobId LIMIT 1];
         if(job.Status == 'Completed'){
             List<String> sendTo = new List<String>();
-            sendTo.add('ravi.d.sharma@pwc.com');
+            sendTo.add('sharma.ravidutt23@gmail.com');
             TestClassUtils.sendEmail(TestClassUtils.createMailBody(TestClassUtils.checkMethodStatus(jobId)), sendTo);
         }else{
             Datetime sysTime = System.now().addSeconds(300);      
